@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nba-stats-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nba-stats
+  template:
+    metadata:
+      labels:
+        app: nba-stats
+    spec:
+      containers:
+      - name: nba-stats-container
+        image: juanvieira/nba-stats:latest
+        ports:
+        - containerPort: 8501
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "500m"
+          limits:
+            memory: "512Mi"
+            cpu: "1"
