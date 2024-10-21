@@ -1,15 +1,16 @@
-## nba-stats
+## NBA Stats
 
 [Static Badge](https://img.shields.io/badge/Made_With_Python-blue)
 
 
 ### Sobre o Projeto
 
-{Descrição do seu projeto}
+Projeto desenvolvido para o módulo de estatística do Santander Coders 2024, trilha de Data Science.
 
 ### Estrutura do Projeto
 
-´´´
+```
+
 ├── data
 │   ├── external
 │   └── processed
@@ -18,12 +19,12 @@
 └── src
     ├
     └── notebooks
-´´´
+
+```
 
 **Objetivos**
 
-{Defina o objetivo do seu projeto}
+O projeto visa comparar dados do LeBronJames com outros jogadores em temporadas da NBA.
 
 
 Autor: Luan, Juan, Luiz Felipe, Luiz Fernando, Luiz Gomes
-Contato: seuemail@example.com
