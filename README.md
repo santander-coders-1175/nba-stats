@@ -9,6 +9,7 @@
 
 ### Estrutura do Projeto
 
+´´´
 ├── data
 │   ├── external
 │   └── processed
@@ -17,6 +18,7 @@
 └── src
     ├
     └── notebooks
+´´´
 
 **Objetivos**
 
